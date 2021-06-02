@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="prism.css">
+<script src="prism.js"></script>
+  <title>CheatSheet</title>
+</head>
+<body>
+  <nav>
+    <span class="logo"><img src="logo.jpg"></span>
+  <div class="content center">This is an HTML CheatSheet just for you! </div>
+  </nav>
+  <div class="container">
+    <ol>
+      <li>
+        <b>HTML Image : </b>
+        <pre class="language-html"><code>&lt;img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;"&gt;</code></pre>
+      </li>
+      <li>
+          <b>HTML Background Image : </b>
+          <pre class="language-html"><code>&lt;style&gt;
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+&lt;/style&gt;</code></pre>
+      </li>
+      <li>
+          <b>HTML Unordered List : </b>
+          <pre class="language-html"><code>&lt;ul&gt;
+    &lt;li&gt;Coffee&lt;/li&gt;
+    &lt;li&gt;Tea&lt;/li&gt;
+    &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+      </li>
+      <li>
+          <b>HTML Ordered List : </b>
+          <pre class="language-html"><code>&lt;ol&gt;
+      &lt;li&gt;Coffee&lt;/li&gt;
+      &lt;li&gt;Tea&lt;/li&gt;
+      &lt;li&gt;Milk&lt;/li&gt;
+&lt;/ol&gt;</pre>
+      </li>
+      <li>
+          <b>HTML Div : </b>
+          <pre class="language-html"><code>&lt;div&gt;Hello World&lt;/div&gt;</pre>
+      </li>
+      <li>
+          <b>HTML Span : </b>
+          <pre class="language-html"><code>&lt;span&gt;Hello World&lt;/span&gt;</code></pre>
+      </li>
+      <li>
+          <b>HTML Iframe : </b>
+          <pre class="language-html"><code>&lt;iframe src="demo_iframe.htm" style="height:200px;width:300px;" title="Iframe Example"&gt;&lt;/iframe&gt;</code></pre>
+      </li>
+      <li>
+          <b>Make your HTML Pages Responsive : </b>
+          <pre class="language-html"><code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</code></pre>
+      </li>
+      <li>
+          <b>HTML Form : </b>
+<pre class="language-html"><code>&lt;form action="/action_page.php" id="form1"&gt;
+&lt;label for="fname"&gt;First name:&lt;/label&gt;
+&lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;&lt;br&gt;
+&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;
+
+&lt;label for="lname"&gt;Last name:&lt;/label&gt;
+&lt;input type="text" id="lname" name="lname" form="form1"&gt;</code></pre>
+</li>
+    
+      </li>
+    </ol>
+  </div>
+</body>
+</html>
